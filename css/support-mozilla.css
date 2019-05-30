@@ -1,0 +1,65 @@
+@supports (-moz-appearance: none) {
+    .contact__email {
+      width: 45%; }
+      @media screen and (max-width: 369px) {
+        .contact__email {
+          width: 220px;
+          margin-right: auto;
+          margin-left: 10px; } }
+  
+    .aside__social a {
+      width: 100%; }
+  
+    @media screen and (max-width: 799px) {
+      .navbar__logo {
+        margin-top: 1%; } }
+    @media screen and (max-width: 600px) {
+      .navbar__logo {
+        width: 80%;
+        margin-top: 0; } }
+  
+    .content__img {
+      width: 50%;
+      height: 100%; }
+      @media screen and (max-width: 1024px) {
+        .content__img {
+          display: none; } }
+  
+    .questions__content {
+      height: 100%; }
+  
+    .content__accordion:last-child {
+      border-bottom: 1px solid white; }
+  
+    footer {
+      height: 100%; }
+  
+    .footer__content {
+      height: 100%;
+      margin-bottom: 40px; }
+  
+    @media screen and (max-width: 899px) {
+      .footer__contact {
+        height: 50%; } }
+  
+    @media screen and (max-width: 1024px) {
+      .content__description {
+        margin-left: 40px; } }
+    @media screen and (max-width: 1000px) {
+      .content__description {
+        margin-left: 0; } }
+  
+    .offer__how-learn {
+      margin-bottom: 40px; }
+  
+    iframe {
+      width: 50%;
+      margin-top: 0;
+      margin: auto; }
+      @media screen and (max-width: 1024px) {
+        iframe {
+          width: 100%;
+          margin: 0; } } }
+  
+  /*# sourceMappingURL=support-mozilla.css.map */
+  
