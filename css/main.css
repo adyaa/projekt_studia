@@ -746,7 +746,7 @@ body {
 
 
   .container__message input {
-    width: 400px;
+    width: 200px;
     height: 35px;
     margin-bottom: 20px;
     padding-left: 10px;
@@ -760,12 +760,11 @@ body {
       border: 2px solid #251d1d; }
     .container__message textarea {
       width: 400px;
-      height: 400px;
+      height: 100px;
       min-width: 90%;
       max-width: 90%;
       min-height: 120px;
       max-height: 120px;
-      margin-bottom: 20px;
       padding-top: 10px;
       padding-left: 10px;
       font-size: 16px;
