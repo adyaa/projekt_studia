@@ -540,10 +540,10 @@ span {
 	flex-wrap: wrap;
 }
 
-.header__icon {
-	width: 100px;
-	height: 100px;
-}
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+	display:block }
 
 .header__title {
 	text-align: center;
@@ -894,6 +894,17 @@ span {
 		}
 	}
 }
+
+.send__button-wrapper {
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 449px) {
+  .send__button-wrapper {
+  margin-top: 0; } }
 
 .button-wrapper__button {
 	width: 150px;

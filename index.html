@@ -102,7 +102,7 @@
 					Solidne i estetyczne dachy za niewygórowaną cenę
 				</div>
 				<div class="roof1__buttons">
-					<a href="#footer" class="buttons__register" onclick="youScroll.to('.copyright').start()">
+					<a href="#footer" class="buttons__register" onclick="youScroll.to('.container__message').start()">
 						Napisz do nas
 					</a>
 					<a href="#container__opinions" class="buttons__opinions"
@@ -118,12 +118,12 @@
 			</p>
 			<div class="company-features__boxes">
 				<div class="company-features__box">
-					<div class="box__header">
-						<img class="header__icon" src="images/img1.JPG" alt="ikona">
+					<div class="box__header">		
 						<div class="header__title">
 							<p>Dachówka ceramiczna</p>
 						</div>
 						<div class="header__description">
+							<img class="img-responsive" float=center src="images/img1.JPG" alt="img">
 							<p>Niewątpliwą zaletą dachówki ceramicznej jest jej elegancki, wysmakowany wygląd. Materiał
 								ten dodaje budynkom ciepła i wyjątkowego uroku,
 								a szeroka gama kształtów i kolorów pozwala dobrać pokrycie do stylu domu i gustu
@@ -135,11 +135,11 @@
 				</div>
 				<div class="company-features__box">
 					<div class="box__header box__header--second">
-						<img class="header__icon" src="images/img2.JPG" alt="ikona">
 						<div class="header__title">
 							<p>Blachodachówka</p>
 						</div>
 						<div class="header__description">
+							<img class="img-responsive" src="images/img2.JPG" alt="img">
 							<p>Blachodachówka dostępna to idealna alternatywa dla dachówki ceramicznej. Jest niezwykle
 								lekka, odporna na działanie
 								czynników atmosferycznych i daje szeroki wachlarz możliwości. Co więcej, wygląda jak
@@ -151,11 +151,11 @@
 				</div>
 				<div class="company-features__box">
 					<div class="box__header">
-						<img class="header__icon" src="images/img3.JPG" alt="ikona">
 						<div class="header__title">
 							<p>Blacha trapezowa</p>
 						</div>
 						<div class="header__description">
+							<img class="img-responsive" src="images/img3.JPG" alt="img">
 							<p>Stosowany powszechnie na ogrodzenia, bramy garażowe, w obudowach kontenerowych i
 								kominowych.
 								Bardzo wydajna szerokość użytkowa, w stosunku do szerokości całkowitej arkusza, pozwala
@@ -167,11 +167,11 @@
 				</div>
 				<div class="company-features__box">
 					<div class="box__header">
-						<img class="header__icon" src="images/img4.JPG" alt="ikona">
 						<div class="header__title">
 							<p>Okna dachowe</p>
 						</div>
 						<div class="header__description">
+							<img class="img-responsive" src="images/img4.JPG" alt="img">
 							<p>Oferujemy pomoc w doborze i montaż okien dachowych charakteryzujących się bardzo dobrymi
 								parametrami jeśli chodzi o izolację termiczną i akustyczną,
 								zapewniających optymalne doświetlenie wnętrz i są niezwykle solidnych. Dzięki temu
@@ -335,8 +335,8 @@
 		</div>
 		<div class="container__message">
 			<h2 class="message__title">Napisz do nas</h2>
-			<div class="message__offers">
-				<p1>Zostaw wiadomość, a odezwiemy się do Ciebie później</p>
+				<p>Zostaw wiadomość, a odezwiemy się do Ciebie później</p>
+
 				<div class="container">
 					<div class="form-group">
 						<label for="email">Email:</label>
@@ -350,7 +350,9 @@
 						<label for="comments">Your Message:</label>
 						<textarea id="comments" class="form-control" placeholder="Enter Text Here"></textarea>
 					</div>
-					<button type="submit" id="submit" class="btn btn-default">Contact</button>
+					<div class="send__button-wrapper">
+						<button type="submit" id="submit" class="send-wrapper__button">Wyślij</button>
+					</div>
 					<div id="display"></div>
 					<script>
 						$(document).ready(function () {
@@ -378,7 +380,7 @@
 						});
 					</script>
 				</div>
-			</div>
+
 
 		</div>
 		<footer>
