@@ -44,7 +44,7 @@
     height: calc(92% / 5);
 }
 .cols-5 .gallery-items:nth-child(5n) {
-    margin-right: 0;
+    margin-right: 2%;
 }
 
 .cols-6 .gallery-items {
