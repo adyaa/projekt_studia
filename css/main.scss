@@ -862,6 +862,38 @@ span {
 	align-items: center;
 }
 
+.container__message input {
+	width: 400px;
+	height: 35px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #757575;
+	font-family: "Lato";
+	background-color:white;
+	border: 1px solid grey; }
+	.container__message input:focus {
+		outline: none;
+		border: 2px solid #251d1d; }
+	.container__message textarea {
+		width: 400px;
+		height: 400px;
+		min-width: 90%;
+		max-width: 90%;
+		min-height: 120px;
+		max-height: 120px;
+		margin-bottom: 20px;
+		padding-top: 10px;
+		padding-left: 10px;
+		font-size: 16px;
+		font-family: "Lato";
+		color: #757575;
+		background-color: white;
+		border: 1px solid grey; }
+	.container__message textarea:focus {
+		outline: none;
+		border: 2px solid #251d1d; }
+
 .message__title {
 	margin-top: 40px;
 	color: darken($primary-color,30);
