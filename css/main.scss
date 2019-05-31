@@ -19,7 +19,6 @@ h1 {
 	font-size: 30px;
 	color: $primary-color;
 	animation-name: show-content;
-	timing-function: easy-in;
 	animation-duration: 2s;
 	/*
 	@media screen and (max-width: 1199px) {
@@ -384,7 +383,6 @@ span {
 	color: white;
 	text-align: center;
 	animation-name: show-content;
-	timing-function: easy-in;
 	animation-duration: 4s;
 	@media screen and (max-width: 500px) {
 		margin-left: 20px;
@@ -401,7 +399,6 @@ span {
 	text-decoration: underline;
 	color: white;
 	animation-name: show-content;
-	timing-function: easy-in;
 	animation-duration: 4s;
 
 	@media screen and (max-width: 500px) {
@@ -419,7 +416,6 @@ span {
 	margin-bottom: 60px;
 	color: white;
 	animation-name: show-content;
-	animation-timing: easy-in;
 	animation-duration: 2s;
 
 	display: flex;

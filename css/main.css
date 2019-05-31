@@ -15,7 +15,6 @@ body {
     color: #e68e14;
     text-shadow: 1px 1px #000000;
     animation-name: show-content;
-    timing-function: easy-in;
     animation-duration: 2s;
     /*
     @media screen and (max-width: 1199px) {
@@ -327,7 +326,6 @@ body {
     text-shadow: 1px 1px #000000;
     text-align: center;
     animation-name: show-content;
-    timing-function: easy-in;
     animation-duration: 4s; }
     @media screen and (max-width: 500px) {
       .roof1__subtitle {
@@ -343,7 +341,6 @@ body {
     color: white;
     text-shadow: 1px 1px #000000;
     animation-name: show-content;
-    timing-function: easy-in;
     animation-duration: 4s; }
     @media screen and (max-width: 500px) {
       .roof1__slogan {
@@ -360,7 +357,6 @@ body {
     color: white;
     text-shadow: 1px 1px #000000;
     animation-name: show-content;
-    animation-timing: easy-in;
     animation-duration: 2s;
     display: flex;
     justify-content: center; }
