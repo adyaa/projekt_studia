@@ -436,6 +436,7 @@ body {
   .company-features__box {
     width: 420px;
     height: 450px;
+    min-height: 450px;
     padding: 5px;
     display: flex;
     flex-direction: column;
@@ -470,17 +471,9 @@ body {
     height: auto; 
     display:block; }
 
-    figure {
-      display: inline-block;
-  }
-  
-  figure figcaption {
-      text-align: center;
-  }
-
     @media (max-width:640px) {
       .text-center {
-        text-align: left !important/* important only for demo*/
+        text-align: left
       }
     }
   
